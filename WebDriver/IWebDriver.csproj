@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>FunkyBDD.SxS.Selenium.WebDriver</PackageId>
+    <IsPackable>true</IsPackable>
+    <Authors>Andreas Karz</Authors>
+    <Company>Swiss Life AG</Company>
+    <Product>FunkyBDD.SxS.Selenium.WebDriver</Product>
+    <Description>Extensions for the Selenium IWebDriver with often missed functions.</Description>
+    <Copyright>Swiss Life AG</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/AndreasKarz/FunkyBDD.SxS.Selenium.WebDriver</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AndreasKarz/FunkyBDD.SxS.Selenium.WebDriver</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>selenium iwebelement bdd pom apom testing extension automated sxs</PackageTags>
+    <PackageReleaseNotes>Init</PackageReleaseNotes>
+    <PackageIconUrl>https://raw.githubusercontent.com/AndreasKarz/FunkyBDD.SxS.Selenium.WebDriver/master/icon.png</PackageIconUrl>
+    <AssemblyName>FunkyBDD.SxS.Selenium.IWebDriver</AssemblyName>
+    <RootNamespace>FunkyBDD.SxS.Selenium.IWebDriver</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="packages\**" />
+    <EmbeddedResource Remove="packages\**" />
+    <None Remove="packages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.Firefox.WebDriver" Version="0.24.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+  </ItemGroup>
+
+</Project>
