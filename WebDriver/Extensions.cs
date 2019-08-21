@@ -269,7 +269,8 @@ namespace FunkyBDD.SxS.Selenium.WebDriver
         /// <param name="driver"></param>
         public static void SetSeleniumFlag(this IWebDriver driver)
         {
-            driver.ExecuteScript("selenium = true;");
+            var scriptExecutor = (IJavaScriptExecutor)driver;
+            scriptExecutor.ExecuteScript("selenium = true;");
         }
     }
 }
