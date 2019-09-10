@@ -15,11 +15,11 @@
     <RepositoryUrl>https://github.com/AndreasKarz/FunkyBDD.SxS.Selenium.WebDriver</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>selenium iwebelement bdd pom apom testing extension automated sxs</PackageTags>
-    <PackageReleaseNotes>Fix SetSeleniumFlag method</PackageReleaseNotes>
+    <PackageReleaseNotes>Complete incode documentation</PackageReleaseNotes>
     <PackageIconUrl>https://raw.githubusercontent.com/AndreasKarz/FunkyBDD.SxS.Selenium.WebDriver/master/icon.png</PackageIconUrl>
     <AssemblyName>FunkyBDD.SxS.Selenium.IWebDriver</AssemblyName>
     <RootNamespace>FunkyBDD.SxS.Selenium.IWebDriver</RootNamespace>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
